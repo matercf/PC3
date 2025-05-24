@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tienda Canina</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="estilos.css" />
+</head>
+<body>
+  <header>
+    <div class="contenedor">
+      <h1>🐾 Dog Shop</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="productos.html">Productos</a></li>
+          <li><a href="contactos.html">Contáctanos</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Maps</a></li>
+          <li class="ctn"><a href="#">Juego</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <header>
+    <div class="header-content">
+      <h2>Bienvenidos a dog Shop</h2>
+      <div class="line"></div>
+      <h1>Aqui podras encontrar variedad de productos para tu mascota   </h1>
+      <a href="#" class="ctn">Learn More</a>
+    </div>
+  </header>
+
+  <section class="events">
+    <div class="title">
+      <h1>Productos más recomendados</h1>
+      <div class="line"></div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <img src="medicina principal.jpg" alt="" />
+        <h4>Simparica TRIO</h4>
+        <p>
+          Tableta masticable fácil de administrar., Brinda protección por 30
+          días., Previene la enfermedad del gusano del corazón.
+        </p>
+        <a href="#" class="ctn">See more</a>
+      </div>
+
+      <div class="col">
+        <img src="comida principal.webp" alt="" height="200" width="350" />
+        <h4>Comida</h4>
+        <p>
+          Ahora es más fácil comprar Comida para Perro Adulto BANDIDO Sabor
+          Carne Bolsa 18KG encuentra esto y más novedades.
+        </p>
+        <a href="#" class="ctn">See more</a>
+      </div>
+    </div>
+  </section>
+
+  <script>
+    const menuBtn=document.querySelector('.menu-btn')
+    const navlinks=document.querySeletor('nav-links')
+
+    menuBtn.addEventListener('click',()={
+    navlinks.classList.toggle('mobile-menu')
+    })
+  </script>
+
+  <footer>
+    <div class="contenedor">
+      <p>&copy; 2025 Dog Shop 🐶 - Todos los derechos reservados.</p>
+    </div>
+  </footer>
+</body>
+</html>

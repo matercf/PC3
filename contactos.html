@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Página de Inicio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-100 font-sans leading-normal tracking-normal">
+    <!-- Contacto -->
+    <section id="contacto" class="py-20 bg-gray-100">
+      <div class="container mx-auto max-w-lg px-6">
+        <h3 class="text-3xl font-bold text-gray-800 text-center mb-8">
+          Contáctanos
+        </h3>
+        <form class="bg-white p-6 rounded shadow">
+          <label class="block mb-2">Nombre</label>
+          <input type="text" class="w-full mb-4 p-2 border rounded" required />
+
+          <label class="block mb-2">Correo electrónico</label>
+          <input type="email" class="w-full mb-4 p-2 border rounded" required />
+
+          <label class="block mb-2">Mensaje</label>
+          <textarea
+            class="w-full mb-4 p-2 border rounded"
+            rows="4"
+            required
+          ></textarea>
+
+          <button
+            type="submit"
+            class="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600"
+          >
+            Enviar
+          </button>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
